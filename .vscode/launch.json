@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "BatteryCollector (Debug)",
+            "request": "launch",
+            "preLaunchTask": "BatteryCollector Win64 Debug Build",
+            "program": "D:\\Belgeler\\Unreal Projects\\BatteryCollector\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "C:\\Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BatteryCollector (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "BatteryCollector Win64 DebugGame Build",
+            "program": "D:\\Belgeler\\Unreal Projects\\BatteryCollector\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "C:\\Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BatteryCollector (Development)",
+            "request": "launch",
+            "preLaunchTask": "BatteryCollector Win64 Development Build",
+            "program": "D:\\Belgeler\\Unreal Projects\\BatteryCollector\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "C:\\Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BatteryCollector (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "BatteryCollector Win64 Shipping Build",
+            "program": "D:\\Belgeler\\Unreal Projects\\BatteryCollector\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "C:\\Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BatteryCollector (Test)",
+            "request": "launch",
+            "preLaunchTask": "BatteryCollector Win64 Test Build",
+            "program": "D:\\Belgeler\\Unreal Projects\\BatteryCollector\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "C:\\Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BatteryCollectorEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "BatteryCollectorEditor Win64 Debug Build",
+            "program": "C:\\Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject"
+            ],
+            "cwd": "C:\\Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BatteryCollectorEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "BatteryCollectorEditor Win64 DebugGame Build",
+            "program": "C:\\Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject"
+            ],
+            "cwd": "C:\\Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "BatteryCollectorEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "BatteryCollectorEditor Win64 Development Build",
+            "program": "C:\\Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject"
+            ],
+            "cwd": "C:\\Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "C:\\Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "newExternalWindow"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "C:\\Games\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "C:\\Games\\UE_4.27"
+        }
+    ]
+}

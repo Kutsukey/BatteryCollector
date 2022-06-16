@@ -1,0 +1,57 @@
+[
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryCollector.Build.cs",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryCollector.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryCollector.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryCollectorCharacter.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryCollectorCharacter.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryCollectorGameMode.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryCollectorGameMode.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryMan.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryMan.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryMan_GameMode.cpp",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Belgeler\\\\Unreal Projects\\\\BatteryCollector\\\\Source\\\\BatteryCollector\\\\BatteryMan_GameMode.h",
+        "command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\.vscode\\compileCommands_BatteryCollector\\BatteryCollector.210.rsp\"",
+        "directory": "C:\\Games\\UE_4.27\\Engine\\Source"
+    }
+]

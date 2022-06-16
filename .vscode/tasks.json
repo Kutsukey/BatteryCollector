@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BatteryCollector Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win32",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"Win64",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Shipping",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollector IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollector IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollector",
+				"IOS",
+				"Test",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollectorEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"Debug",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollectorEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BatteryCollectorEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		},
+		{
+			"label": "BatteryCollectorEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BatteryCollectorEditor",
+				"Win64",
+				"Development",
+				"D:\\Belgeler\\Unreal Projects\\BatteryCollector\\BatteryCollector.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Games\\UE_4.27"
+			}
+		}
+	]
+}
